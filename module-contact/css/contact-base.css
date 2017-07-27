@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-header h3 {
+  text-align: center;
+  color: #1ec56b;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.contact-avatar {
+  border-radius: 50%;
+}
+
+.contact-name {
+  color: #0fae52;
+  text-transform: uppercase;
+}
+
+.contact-contacts .contact-info:nth-of-type(1) {
+  border-top: 2px solid #1ec56b;
+}
+
+.contact-contacts .contact-info {
+  border-bottom: 2px solid #1ec56b;
+}
+
+.contact-contacts .contact-avatar {
+  margin-right: 1rem;
+  border: 5px solid #0fae52;
+  margin-right: 2rem;
+}
+
+.active {
+  background-color: #cef8e2;
+}
