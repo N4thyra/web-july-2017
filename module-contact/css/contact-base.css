@@ -25,6 +25,13 @@ body {
 .contact-info {
   padding: 1rem;
   font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.contact-info .contact-phone,
+.contact-info .contact-email {
+  display: none;
 }
 
 .contact-avatar {

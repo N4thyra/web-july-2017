@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/app-base.css">
-    <link rel="stylesheet" href="css/app-flex.css">
+    <link rel="stylesheet" href="css/contact-base.css">
+    <link rel="stylesheet" href="css/contact-flex.css">
   </head>
   <body>
     <div class="contact-container">
@@ -18,11 +18,13 @@
 
         <div class="contact-contacts">
 
-          <div class="contact-info">
+          <div class="contact-info active">
             <img class="contact-avatar" src="http://placekitten.com/150/150">
             <div class="contact-content">
               <div class="contact-name">Radek Machalsky</div>
               <div class="contact-position">Managing Director, CEO</div>
+              <div class="contact-phone">Cell: +111 444 555 666</div>
+              <div class="contact-email">idk@seznam.cz</div>
             </div>
           </div>
 
@@ -31,6 +33,8 @@
             <div class="contact-content">
               <div class="contact-name">Ing. Ondra Machalsky</div>
               <div class="contact-position">Electrical and Software Engineer</div>
+              <div class="contact-phone">Cell: +111 999 111 444</div>
+              <div class="contact-email">kuku@seznam.cz</div>
             </div>
           </div>
 
@@ -39,14 +43,18 @@
             <div class="contact-content">
               <div class="contact-name">Vaclav Vilimek</div>
               <div class="contact-position">Marketing and Design</div>
+              <div class="contact-phone">Cell: +888 919 151 144</div>
+              <div class="contact-email">loveu@seznam.cz</div>
             </div>
           </div>
 
-          <div class="contact-info active">
+          <div class="contact-info" onclick="location.href='selected.html'">
             <img class="contact-avatar" src="http://www.blindfiveyearold.com/wp-content/uploads/2011/01/homer-simpson-150x150.jpg">
             <div class="contact-content">
               <div class="contact-name">Arnold Schwarcy</div>
               <div class="contact-position">Killer</div>
+              <div class="contact-phone">Cell: +881 469 123 000</div>
+              <div class="contact-email">freak@seznam.cz</div>
             </div>
           </div>
 
@@ -71,5 +79,8 @@
       </div>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
