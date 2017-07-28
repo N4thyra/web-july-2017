@@ -3,7 +3,6 @@ let   contactInfoDiv = $('.contact-contacts .contact-info'),
       rightArrow         = $('.contact-link:last-of-type'),
       contactDetailContent = $('.contact-detail .contact-content');
 
-
 leftArrow.on('click', function() {
   // var $next = $('.contact-info.active').removeClass('active').next('.active');
 
@@ -33,14 +32,17 @@ rightArrow.on('click', function() {
 
 });
 
-
 contactInfoDiv.on('click', function() {
+  if ($(window).width() < 901) {
+            location.href = "./selected.html";
+         }
   $(this).siblings('.active').removeClass('active');
   $(this).addClass('active');
 
   updateContactInfo();
 
 });
+
 
 // makes all the necessary updates on the right hand side
 function updateContactInfo() {
