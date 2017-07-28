@@ -18,6 +18,7 @@ h3.contact-header-hidden {
 }
 
 @media only screen and (max-width: 900px) {
+
   .contact-container .contact-detail {
     display: none;
   }
@@ -63,11 +64,10 @@ h3.contact-header-hidden {
     font-weight: bold;
     text-transform: uppercase;
   }
-
-
 }
 
 @media only screen and (min-width: 901px) {
+
   .contact-container {
     display: flex;
     flex-direction: column;
